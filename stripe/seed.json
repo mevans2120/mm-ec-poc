@@ -1,0 +1,182 @@
+{
+  "_meta": { "template_version": 0 },
+  "fixtures": [
+    {
+      "name": "product_soul_search",
+      "path": "/v1/products",
+      "method": "post",
+      "params": {
+        "name": "Soul Search Workbook",
+        "description": "Digital workbook for career soul searching",
+        "metadata": { "type": "digital", "slug": "soul-search-workbook" },
+        "tax_code": "txcd_10000000"
+      }
+    },
+    {
+      "name": "price_soul_search",
+      "path": "/v1/prices",
+      "method": "post",
+      "params": {
+        "product": "${product_soul_search:id}",
+        "unit_amount": 1999,
+        "currency": "usd",
+        "tax_behavior": "exclusive"
+      }
+    },
+    {
+      "name": "product_research",
+      "path": "/v1/products",
+      "method": "post",
+      "params": {
+        "name": "Research Workbook",
+        "description": "Digital workbook for career research",
+        "metadata": { "type": "digital", "slug": "research-workbook" },
+        "tax_code": "txcd_10000000"
+      }
+    },
+    {
+      "name": "price_research",
+      "path": "/v1/prices",
+      "method": "post",
+      "params": {
+        "product": "${product_research:id}",
+        "unit_amount": 1999,
+        "currency": "usd",
+        "tax_behavior": "exclusive"
+      }
+    },
+    {
+      "name": "product_job_search",
+      "path": "/v1/products",
+      "method": "post",
+      "params": {
+        "name": "Job Search Workbook",
+        "description": "Digital workbook for job searching",
+        "metadata": { "type": "digital", "slug": "job-search-workbook" },
+        "tax_code": "txcd_10000000"
+      }
+    },
+    {
+      "name": "price_job_search",
+      "path": "/v1/prices",
+      "method": "post",
+      "params": {
+        "product": "${product_job_search:id}",
+        "unit_amount": 1999,
+        "currency": "usd",
+        "tax_behavior": "exclusive"
+      }
+    },
+    {
+      "name": "product_workbook_bundle",
+      "path": "/v1/products",
+      "method": "post",
+      "params": {
+        "name": "3-Workbook Bundle",
+        "description": "Bundle of all three digital workbooks",
+        "metadata": { "type": "digital", "slug": "workbook-bundle" },
+        "tax_code": "txcd_10000000"
+      }
+    },
+    {
+      "name": "price_workbook_bundle",
+      "path": "/v1/prices",
+      "method": "post",
+      "params": {
+        "product": "${product_workbook_bundle:id}",
+        "unit_amount": 4999,
+        "currency": "usd",
+        "tax_behavior": "exclusive"
+      }
+    },
+    {
+      "name": "product_five_elements",
+      "path": "/v1/products",
+      "method": "post",
+      "params": {
+        "name": "Five Elements Assessment",
+        "description": "Digital career assessment based on the Five Elements framework",
+        "metadata": { "type": "digital", "slug": "five-elements-assessment" },
+        "tax_code": "txcd_10000000"
+      }
+    },
+    {
+      "name": "price_five_elements",
+      "path": "/v1/prices",
+      "method": "post",
+      "params": {
+        "product": "${product_five_elements:id}",
+        "unit_amount": 2999,
+        "currency": "usd",
+        "tax_behavior": "exclusive"
+      }
+    },
+    {
+      "name": "product_career_webinar",
+      "path": "/v1/products",
+      "method": "post",
+      "params": {
+        "name": "Career Empowerment Webinar",
+        "description": "Digital webinar on career empowerment strategies",
+        "metadata": { "type": "digital", "slug": "career-empowerment-webinar" },
+        "tax_code": "txcd_10000000"
+      }
+    },
+    {
+      "name": "price_career_webinar",
+      "path": "/v1/prices",
+      "method": "post",
+      "params": {
+        "product": "${product_career_webinar:id}",
+        "unit_amount": 3999,
+        "currency": "usd",
+        "tax_behavior": "exclusive"
+      }
+    },
+    {
+      "name": "product_how_to_book",
+      "path": "/v1/products",
+      "method": "post",
+      "params": {
+        "name": "How-To Book (ebook)",
+        "description": "Digital ebook with practical career guidance",
+        "metadata": { "type": "digital", "slug": "how-to-book" },
+        "tax_code": "txcd_10000000"
+      }
+    },
+    {
+      "name": "price_how_to_book",
+      "path": "/v1/prices",
+      "method": "post",
+      "params": {
+        "product": "${product_how_to_book:id}",
+        "unit_amount": 1499,
+        "currency": "usd",
+        "tax_behavior": "exclusive"
+      }
+    },
+    {
+      "name": "product_physical_workbook_set",
+      "path": "/v1/products",
+      "method": "post",
+      "params": {
+        "name": "Physical Workbook Set",
+        "description": "Printed set of career workbooks shipped to your door",
+        "metadata": { "type": "physical", "slug": "physical-workbook-set" },
+        "tax_code": "txcd_99999999",
+        "shippable": true
+      }
+    },
+    {
+      "name": "price_physical_workbook_set",
+      "path": "/v1/prices",
+      "method": "post",
+      "params": {
+        "product": "${product_physical_workbook_set:id}",
+        "unit_amount": 5999,
+        "currency": "usd",
+        "tax_behavior": "exclusive"
+      }
+    }
+  ]
+}
