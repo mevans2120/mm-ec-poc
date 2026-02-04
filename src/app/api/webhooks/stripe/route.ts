@@ -39,7 +39,7 @@ export async function POST(request: Request) {
         : `${process.env.NEXT_PUBLIC_URL}/api/download/${productSlug}?session_id=${session.id}`
 
       await resend.emails.send({
-        from: 'Maggie Mistal <onboarding@resend.dev>',
+        from: 'Store <onboarding@resend.dev>',
         to: [customerEmail],
         subject: 'Your purchase is confirmed!',
         react: PurchaseConfirmation({

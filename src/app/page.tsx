@@ -18,11 +18,11 @@ export default async function HomePage() {
       {/* Hero */}
       <section className="mb-16 text-center">
         <h1 className="mb-4 text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
-          Maggie Mistal
+          Ecommerce PoC
         </h1>
         <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
-          Tools, courses, and resources to help you find and thrive in your ideal
-          career. Invest in yourself today.
+          A proof of concept for selling digital and physical products with
+          Stripe Checkout, Sanity CMS, and Resend.
         </p>
       </section>
 

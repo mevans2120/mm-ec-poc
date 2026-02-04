@@ -5,8 +5,8 @@ import { ProductGrid } from '@/components/ProductGrid'
 import type { Product } from '@/lib/sanity/types'
 
 export const metadata = {
-  title: 'All Products | Maggie Mistal',
-  description: 'Browse all career empowerment products by Maggie Mistal.',
+  title: 'All Products | Store',
+  description: 'Browse all available digital and physical products.',
 }
 
 export default async function ProductsPage() {

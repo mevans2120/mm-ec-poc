@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Maggie Mistal | Products",
+  title: "Ecommerce PoC | Products",
   description:
-    "Career empowerment products by Maggie Mistal — tools, courses, and resources to help you find and thrive in your ideal career.",
+    "Digital and physical products — a proof of concept for Stripe Checkout with Sanity CMS.",
 };
 
 export default function RootLayout({
@@ -36,7 +36,7 @@ export default function RootLayout({
               href="/"
               className="text-lg font-bold tracking-tight text-foreground hover:text-primary transition-colors"
             >
-              Maggie Mistal
+              Store
             </Link>
             <Link
               href="/products"

@@ -53,7 +53,7 @@ export function PurchaseConfirmation({
             </Section>
           )}
           <Hr style={hr} />
-          <Text style={footer}>— Maggie Mistal</Text>
+          <Text style={footer}>— The Store Team</Text>
         </Container>
       </Body>
     </Html>

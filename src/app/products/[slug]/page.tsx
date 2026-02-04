@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
   }
 
   return {
-    title: `${product.title} | Maggie Mistal`,
+    title: `${product.title} | Store`,
     description: product.description,
   }
 }
